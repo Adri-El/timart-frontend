@@ -1472,12 +1472,7 @@ const TraderDashboard = () => {
 
   return (
     <div className="Trader_dashboard">
-      {isVerifiedModal ? (
-        <VerifyModal
-          closeModalHandle={closeModalHandle}
-          navigateToSellerVerify={navigateToSellerVerify}
-        />
-      ) : null}
+      
       {isPendmod ? (
         <PendingModal closePendingModal={closePendingModal} />
       ) : null}
