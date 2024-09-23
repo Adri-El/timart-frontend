@@ -31,7 +31,7 @@ const ViewCategory = () => {
   } else {
     navigate("/");
   }
-  titleUpdater(`Entamarket - ${categoryName} Category `);
+  titleUpdater(`TImart - ${categoryName} Category `);
 
   const getHomeProducts = () => {
     fetch(`${apiUrl}home-page?page=${count}`, {

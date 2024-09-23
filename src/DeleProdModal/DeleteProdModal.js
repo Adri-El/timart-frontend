@@ -5,7 +5,7 @@ const DeleteProdModal = (props) => {
                   <h2>Are you sure you want to Delete this Product</h2>
                 
                     <div className="pop-info">
-                         <p>Note that Product will be removed from your Seller Account and the Entamarket Homepage</p>
+                         <p>Note that Product will be removed from your Seller Account and the TImart Homepage</p>
                     </div>
 
                     <div className="delete-btns">

@@ -1264,7 +1264,7 @@ const AdminDashboard = () => {
 
       <ToastContainer autoClose={1000} />
       <div className="traderdashboard__footer">
-        <p>Entamarket Limited Trader Dashboard</p>
+        <p>TImart Limited Trader Dashboard</p>
         <p>All rights reserved 2022</p>
       </div>
     </div>

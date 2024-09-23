@@ -17,7 +17,7 @@ const Join = () => {
       </div>
 
       <div className="joinBox">
-        <a href="https://play.google.com/store/apps/details?id=com.entamarket.Entamarket&pli=1">
+        <a href="https://play.google.com/store/apps/details?id=com.entamarket.TImart&pli=1">
           <div>
             <img src={androidLogo} alt="logo" width="110px" />
           </div>

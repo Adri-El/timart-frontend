@@ -217,7 +217,7 @@ const TermsOfService = () => {
           Your submission of personal information through the site is governed
           by our Privacy Policy. To view our Privacy Policy, please see{" "}
           <Link to="/privacy-policy" className="page-link">
-            Entamarket-Privacy Policy
+            TImart-Privacy Policy
           </Link>
         </p>
       </div>
@@ -397,7 +397,7 @@ const TermsOfService = () => {
           <br />
           <br />
           Our contact information is posted below: <br /> <br />
-          <span className="span-link"> Entamarket Limited</span>
+          <span className="span-link"> TImart Limited</span>
           <br />
           <span className="span-link">support@entamarket.com</span>
           <br />

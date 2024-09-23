@@ -6,7 +6,7 @@ import "./loginAuthOptions.css";
 import { titleUpdater } from "../utilities/titleUpdater";
 
 const LoginAuthOptions = () => {
-  titleUpdater("Entamarket - Login Options");
+  titleUpdater("TImart - Login Options");
   const navigate = useNavigate();
   const goToSellerAccount = () => {
     navigate("/login");

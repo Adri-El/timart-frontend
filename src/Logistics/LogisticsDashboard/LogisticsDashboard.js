@@ -687,7 +687,7 @@ const LogisticsDashboard = () => {
       <ToastContainer />
 
       <div className="traderdashboard__footer">
-        <p>Entamarket Limited Trader Dashboard</p>
+        <p>TImart Limited Trader Dashboard</p>
         <p>All rights reserved 2024</p>
       </div>
     </div>

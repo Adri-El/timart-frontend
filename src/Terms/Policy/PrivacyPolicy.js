@@ -128,7 +128,7 @@ const PrivacyPolicy = () => {
           details provided below:
           <br />
           <br />
-          <span className="span-link"> Entamarket Limited</span>
+          <span className="span-link"> TImart Limited</span>
           <br />
           <span className="span-link">support@entamarket.com</span>
           <br />

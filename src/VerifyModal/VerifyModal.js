@@ -16,7 +16,7 @@ const VerifyModal = (props) => {
           <div className="verify-line">
             <span>
               You are required to verify your Seller Account to start uploading
-              your products and making sales on Entamarket.
+              your products and making sales on TImart.
             </span>
           </div>
 

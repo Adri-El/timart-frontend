@@ -76,7 +76,7 @@ import VerifyModal from "../VerifyModal/VerifyModal";
 import PendingModal from "../PendingModal/PendingModal";
 
 const TraderDashboard = () => {
-  titleUpdater("Entamarket - Seller Dashboard");
+  titleUpdater("TImart - Seller Dashboard");
   const [traderData, setTraderData] = useState("");
   const [showLoader, setShowLoader] = useState(true);
   const [showModal, setShowModal] = useState(false);
@@ -1662,7 +1662,7 @@ const TraderDashboard = () => {
               <div className="shopInfoBox">
                 <h2>Create Shop</h2>
                 <p>
-                  To upload your products on Entamarket you need to create your
+                  To upload your products on TImart you need to create your
                   shop.
                 </p>
               </div>
@@ -2490,7 +2490,7 @@ const TraderDashboard = () => {
       </div>
 
       <div className="traderdashboard__footer">
-        <p>Entamarket Limited Seller Dashboard</p>
+        <p>TImart Limited Seller Dashboard</p>
         <p> All rights reserved 2024</p>
       </div>
     </div>

@@ -15,7 +15,7 @@ import { FiPhone } from "react-icons/fi";
 import { GoLocation } from "react-icons/go";
 
 const ShopHome = (props) => {
-  titleUpdater("Entamarket - Trade Fair Virtual Market");
+  titleUpdater("TImart - Trade Fair Virtual Market");
   const dispatch = useDispatch();
   const [showLoader, setShowLoader] = useState(true);
   const [offlineModal, setOfflineModal] = useState(false);

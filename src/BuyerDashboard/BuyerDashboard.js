@@ -78,7 +78,7 @@ const BuyerDashboard = () => {
   const [isShowItems, setIsShowItems] = useState(false);
 
   let linkUrl = "";
-  titleUpdater("Entamarket - Buyer Dashboard");
+  titleUpdater("TImart - Buyer Dashboard");
 
   let fName = useRef();
   let lName = useRef();
@@ -1155,7 +1155,7 @@ const BuyerDashboard = () => {
       </div>
 
       <div className="traderdashboard__footer">
-        <p>Entamarket copyrights reserved 2024 </p>
+        <p>TImart copyrights reserved 2024 </p>
       </div>
     </div>
   );

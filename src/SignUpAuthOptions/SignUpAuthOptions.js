@@ -6,7 +6,7 @@ import "../LoginAuthOptions/loginAuthOptions";
 import { titleUpdater } from "../utilities/titleUpdater";
 
 const SignUpAuthOptions = () => {
-  titleUpdater("Entamarket - Signup Options");
+  titleUpdater("TImart - Signup Options");
   const navigate = useNavigate();
   const goToSellerAccount = () => {
     navigate("/signup");

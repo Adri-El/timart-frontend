@@ -28,7 +28,7 @@ const AboutUs = () => {
 
             <div className="about__details">
               <p>
-                We are the <b>Entamarket Trade Fair Service</b>, we bring the
+                We are the <b>TImart Trade Fair Service</b>, we bring the
                 lagos trade fair complex very close and easy for you to buy,
                 sell and interact with your favourite shops in the Trade Fair.{" "}
                 <br /> <br /> We ensure that you get the best ecommerce service
@@ -36,7 +36,7 @@ const AboutUs = () => {
                 our quality customer support team which stands out from many
                 ensuring that you get the best customer support experience.{" "}
                 <br /> <br />
-                <b>Entamarket Limited</b> also ensures all traders are properly
+                <b>TImart Limited</b> also ensures all traders are properly
                 vetted through our vetting process and ensuring that you own a
                 real shop as a trader this enables us to reduce the risks of
                 online Fraudsters We also ensure all payments are 100% secured

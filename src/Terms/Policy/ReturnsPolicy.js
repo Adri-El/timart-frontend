@@ -38,7 +38,7 @@ const ReturnsPolicy = () => {
           <br /> <br /> If your return is accepted, we’ll send you a return
           shipping label, as well as instructions on how and where to send your
           package. Please note that you are responsible for any shipping costs
-          and related fees associated with your return. Entamarket or any of its
+          and related fees associated with your return. TImart or any of its
           affiliates will not be held liable for any losses incurred from lost
           packages that do not get to our office. <br /> <br />
           Items sent back to us without first requesting a return will not be
@@ -79,7 +79,7 @@ const ReturnsPolicy = () => {
           If more than 15 business days have passed since we’ve approved your
           return, please contact us at <b> support@entamarket.com</b>
           <br /> <br />
-          <span className="span-link"> Entamarket Limited</span>
+          <span className="span-link"> TImart Limited</span>
           <br />
           <span className="span-link">support@entamarket.com</span>
           <br />

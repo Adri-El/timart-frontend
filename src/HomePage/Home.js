@@ -24,7 +24,7 @@ import banner2 from "../../src/Assets/Advert Banners/guy2.jpg";
 import banner3 from "../../src/Assets/Advert Banners/girl1.jpg";
 
 const Home = (props) => {
-  titleUpdater("Entamarket - Trade Fair Virtual Market");
+  titleUpdater("TImart - Trade Fair Virtual Market");
   const dispatch = useDispatch();
   const [showLoader, setShowLoader] = useState(true);
   const [offlineModal, setOfflineModal] = useState(false);
