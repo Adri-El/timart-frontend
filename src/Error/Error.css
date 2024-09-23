@@ -1,0 +1,22 @@
+.error {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+  color: var(--red-color);
+  font-weight: 600;
+  font-size: 13px;
+  border-radius: 5px;
+  margin: 8px auto;
+  transition: all 0.4s ease-in-out;
+}
+.error span {
+  margin-left: 6px;
+}
+@media screen and (max-width: 600px) {
+  .error {
+    transform: translateX(0px);
+    margin: 7px auto;
+    padding: 7px;
+  }
+}

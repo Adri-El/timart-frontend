@@ -1,0 +1,17 @@
+@media screen and (max-width: 600px) {
+  /* .logo-box img {
+    width: 200px;
+  } */
+
+  
+  
+}
+.home_b{
+  background-color: purple;
+  border-radius: 30%;
+  padding: 3px;
+}
+
+.span{
+  color: white;
+}

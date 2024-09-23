@@ -1,0 +1,30 @@
+.signup__header h1{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.signup__header p{
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 949px){
+   .signup__header h1{
+    font-size:  30px;
+}
+.signup__header p{
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+}
+@media screen and (max-width: 600px){
+   .signup__header h1{
+    font-size:  20px;
+}
+.signup__header p{
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+}

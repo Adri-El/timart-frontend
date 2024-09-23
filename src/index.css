@@ -1,0 +1,65 @@
+:root {
+  --primary-color: #81007f;
+  --secondary-color: #f7cdcf;
+  --bg-color: #eee;
+  --white-color: #fff;
+  --box-color: rgb(228, 224, 224);
+  --primary-hover: #970895;
+  --error-color: rgba(223, 47, 47, 0.623);
+  --black-color: #000;
+  --red-color: red;
+  --grey-light: #eee;
+  --success-color: green;
+  --dark-primary: #40196d;
+  --dark-p-hover: #4e099c;
+  --light-primary: #dfe3ff;
+  --shadow: 3px 2px 3px rgba(0, 0, 0, 0.2);
+  --bg-transparent: #00000077;
+  --tp-red: rgb(255, 158, 158);
+  --tp-red-light: rgb(216, 32, 32);
+  --main-grey: #666464;
+  --progress-blue: rgba(62, 8, 112, 0.651);
+  --dark-red: rgb(202, 13, 13);
+  --yellow-err: rgb(228, 155, 20);
+  --green-err: rgb(124, 182, 9);
+  --violet-blue: #860d84be;
+  --box-shadow2: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  --box-shadow3: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--bg-color);
+}
+input,
+button {
+  font-family: inherit;
+}
+a {
+  text-decoration: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: bal;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary-color);
+}

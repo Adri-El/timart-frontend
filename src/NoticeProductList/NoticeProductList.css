@@ -1,0 +1,28 @@
+.prod__review-img img {
+  width: 20%;
+}
+.prod__review-img {
+  margin: 10px 0;
+}
+.prod__review__details span {
+  font-weight: 500;
+}
+.customer__review-details p {
+  width: max-content;
+  font-size: 11px;
+  background-color: #f584f3f3;
+  padding: 2px 5px;
+  font-weight: 600;
+  border-radius: 3px;
+}
+.customer__review-details span {
+  font-size: 13px;
+  font-weight: 500;
+  margin: 3px 0;
+}
+.prod__review__details span {
+  font-size: 14px;
+}
+.review__text {
+  display: block;
+}

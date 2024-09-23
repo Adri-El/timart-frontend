@@ -1,0 +1,41 @@
+.comment-input-box {
+  display: flex;
+  margin: 25px 0;
+}
+.form {
+  width: 100%;
+}
+.comment-input-box input {
+  border: none;
+  width: 50%;
+  border-bottom: 1px solid var(--primary-color);
+  margin-right: 10px;
+  padding: 10px;
+}
+.comment-input-box button {
+  border: none;
+  background-color: transparent;
+  color: var(--primary-color);
+  font-weight: 700;
+  cursor: pointer;
+}
+.comment-input-box input:focus {
+  outline: none;
+}
+.comments-box p {
+  font-size: 14px;
+}
+.close__btn {
+  text-align: right;
+}
+@media screen and (max-width: 554px) {
+  .comment-input-box input {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 396px) {
+  .comment-input-box input {
+    width: 100%;
+    margin: 5px 0;
+  }
+}

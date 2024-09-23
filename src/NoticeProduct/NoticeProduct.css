@@ -1,0 +1,27 @@
+.modal-content h4 {
+  font-weight: 500;
+  margin: 10px 0;
+}
+.review__box-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.review-box-nav {
+  display: flex;
+  align-content: center;
+  cursor: pointer;
+}
+.review-box-nav span {
+  font-size: 14px;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+.back_icon {
+  color: var(--primary-color);
+}
+.rev__username {
+  color: var(--primary-color);
+  font-weight: 600;
+}

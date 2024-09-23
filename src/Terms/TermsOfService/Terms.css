@@ -1,0 +1,77 @@
+.terms-header-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 15px 30px;
+}
+.terms-policy {
+  display: flex;
+}
+.policy-link {
+  color: var(--primary-color);
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.termsOfService-box {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 80%;
+  margin: 20px auto;
+}
+.termsOfService-box h2 {
+  font-size: 20px;
+  margin: 13px 0;
+}
+.termsOfService-box h1 {
+  font-size: 26px;
+  margin: 10px 0;
+}
+.termsOfService-box p {
+  line-height: 1.6;
+  font-size: 14px;
+}
+.page-link {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.span-link {
+  font-weight: 500;
+  display: inline-block;
+  background-color: var(--secondary-color);
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin: 8px 0;
+}
+.call-icon {
+  transform: translateY(3px);
+}
+
+@media screen and (max-width: 578px) {
+  .termsOfService-box {
+    width: 95%;
+    padding: 30px 20px;
+  }
+  .terms-header-box {
+    padding: 15px 10px;
+  }
+  .policy-link {
+    margin-left: 5px;
+    font-size: 12px;
+  }
+
+  .termsOfService-box h2 {
+    font-size: 17px;
+  }
+
+  .termsOfService-box h1 {
+    font-size: 20px;
+  }
+
+  .termsOfService-box p {
+    font-size: 13px;
+  }
+}

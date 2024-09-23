@@ -1,0 +1,83 @@
+.form-logo {
+  text-align: center;
+  display: none;
+}
+.forgot-passbox {
+  margin: 10px 0;
+  text-align: center;
+}
+.forgot-passbox span {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+}
+.forgot-passbox span:hover {
+  text-decoration: underline;
+}
+.login-with {
+  padding: 10px 0px;
+}
+.active {
+  background-color: #fff;
+  border-bottom: 2px solid var(--primary-color);
+}
+.login-with span {
+  padding: 6px 0;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.login-with {
+  margin-bottom: 10px;
+}
+.mail-login {
+  padding-right: 15px;
+}
+.head2box1 {
+  margin-bottom: 20px;
+}
+
+.delet-icon {
+  display: inline-block;
+  font-size: 30px;
+  color: rgb(250, 22, 22);
+}
+.phoneInp1Bx {
+  width: 100%;
+  padding: 13px 10px;
+  font-family: inherit;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.phoneInp1Bx:focus {
+  border: 1px solid var(--primary-color);
+  outline: none;
+}
+.phoneInp1Bx option {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+option {
+  font-weight: 500;
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .form-logo {
+    display: block;
+    margin-top: 100px;
+  }
+  .signup__sidebar {
+    display: none;
+  }
+  .signup_form-header h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--primary-color);
+  }
+}

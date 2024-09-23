@@ -1,0 +1,14 @@
+.pay_account-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.pay_account-icon span{
+    font-size:  23px;  
+    background-color: var(--light-primary);
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--dark-primary);
+    margin-right: 10px;
+}

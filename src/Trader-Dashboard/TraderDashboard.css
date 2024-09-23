@@ -1,0 +1,1094 @@
+.traderdashboard__header {
+  background-color: var(--white-color);
+  padding: 15px;
+  text-align: center;
+}
+.dashboard__header-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__box {
+  display: flex;
+}
+.header__box button,
+.search-box button,
+.shop-createbtn button {
+  padding: 0 20px;
+  border: none;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  color: var(--white-color);
+  font-weight: 600;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 13px;
+}
+.shop-createbtn button {
+  padding: 8px 20px;
+  background-color: var(--primary-hover);
+}
+.search-box input {
+  width: 300px;
+  height: 35px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid var(--grey-light);
+}
+.search-box input:focus {
+  outline: 1px solid var(--primary-color);
+}
+.header__box button:hover {
+  background-color: var(--primary-hover);
+}
+.create__shop,
+.search-btn {
+  transition: all 0.6s ease-in-out;
+}
+
+.create__shop:hover,
+.search-btn:hover {
+  background-color: var(--primary-color);
+}
+.add_prodShop {
+  background-color: var(--white-color) !important;
+  border: 1px solid var(--primary-color) !important;
+  transition: all 0.2s ease-in-out;
+  color: var(--primary-color) !important;
+}
+.shopInfoBox h2 {
+  text-align: center;
+}
+.shopInfoBox {
+  margin-bottom: 20px;
+}
+.shopInfoBox p {
+  font-size: 14px;
+  color: #1b1b1b;
+  font-weight: 400;
+  margin: 5px 0;
+}
+.traderdashboard__main {
+  display: flex;
+  height: auto;
+}
+.traderdashboard__sidebar {
+  width: 20%;
+  background-color: var(--primary-hover);
+  padding: 10px 20px;
+  color: var(--white-color);
+  z-index: 50;
+}
+.traderdashboard__shopItems {
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+}
+.traderdashboard__footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 15px;
+  color: var(--white-color);
+  background-color: var(--primary-hover);
+  text-align: center;
+  z-index: 10;
+}
+.traderdashboard__footer p {
+  font-size: 12px;
+}
+.shop__items-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+.mobile-nav {
+  display: none;
+}
+.shop2_activity {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 30px 0;
+  background-color: var(--white-color);
+  border-radius: 5px;
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.shop__activity {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 100px 0;
+  background-color: var(--white-color);
+  border-radius: 5px;
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.toggle_icon {
+  position: absolute;
+  top: 10.3%;
+  cursor: pointer;
+  display: none;
+}
+
+.spanClear {
+  font-size: 20px;
+  cursor: pointer;
+}
+.pending__buyer {
+  width: 80%;
+  margin: 25px 0;
+  white-space: nowrap;
+}
+.pend-box1main {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.pending__buyerbox {
+  display: flex;
+  align-items: center;
+}
+.pending__buyerbox p {
+  overflow: hidden;
+  font-size: 13px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+}
+.completed-orders,
+.transactions-box {
+  height: 400px;
+  overflow: scroll;
+}
+.purchase-header {
+  text-align: center;
+}
+.item-img {
+  text-align: center;
+}
+.item-img img {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+.move__d {
+  margin-top: 75px;
+}
+.heading-4 {
+  font-weight: 600;
+  margin: 10px 0;
+}
+.pshops {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+.pending__buyerbox button {
+  font-size: 10px;
+  padding: 8px 10px;
+  margin-left: 8px;
+  border-radius: 100px;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.pending__buyerbox button:hover {
+  background-color: var(--primary-hover);
+}
+.link__click {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin: 10px 0;
+}
+
+.toggle__icon-main {
+  padding: 5px 8px;
+  border-radius: 100px;
+  background-color: var(--primary-hover);
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.toggle__icon-main span {
+  display: inline-block;
+  font-size: 20px;
+  color: var(--white-color);
+}
+.product__image-btn {
+  text-align: center;
+}
+.product__image-btn button {
+  background-color: transparent;
+  padding: 7px 10px;
+  color: #40196d;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.image__file-input {
+  display: none;
+}
+.close-back button {
+  background-color: var(--primary-color);
+  padding: 8px 20px;
+  border-radius: 5px;
+  color: var(--white-color);
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.back-btn {
+  background-color: #dfe3ff !important;
+  color: #40196d !important;
+  font-weight: 600;
+}
+.prod-back,
+.add__product-button {
+  background-color: #dfe3ff !important;
+  color: var(--white-color);
+  padding: 12px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  margin: 10px 0;
+  margin-right: 10px;
+  color: #40196d !important;
+  font-weight: 600;
+}
+.prod-back {
+  margin-left: 20px;
+}
+.add__product-button {
+  background-color: var(--primary-color) !important;
+  color: #fff !important;
+}
+.shopErrormain {
+  width: 20%;
+  margin: 0 auto;
+}
+.traderdashboard__sidebar.sideBar__active.traderdashboard__sidebar {
+  display: block;
+}
+.traderdashboard__shopItems.removeShopItem.traderdashboard__shopItems {
+  display: none;
+}
+.trader-profile {
+  padding: 30px;
+  background-color: #fff;
+}
+.seller-prof-info {
+  display: flex;
+  align-items: center;
+}
+.seller-prof-info span {
+  font-size: 20px;
+  background-color: var(--light-primary);
+  color: var(--dark-primary);
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.seller-prof-info h3 {
+  color: var(--dark-primary);
+}
+.trader-profile hr {
+  margin: 10px 0;
+  border-top: 1px solid var(--grey-light);
+}
+.seller-prof-box {
+  margin: 10px 0;
+}
+.seller-prof-box button {
+  margin-left: 20px;
+  border: none;
+  background-color: transparent;
+  color: var(--primary-color);
+  padding: 4px 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.seller-prof-box span {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(43, 41, 41);
+}
+.close-profile-btn button {
+  width: 100%;
+  height: 35px;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.close-profile-btn button:hover {
+  background-color: var(--primary-hover);
+}
+.comments__box {
+  overflow: scroll;
+  height: 200px;
+}
+.comment__header {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+.update__token {
+  margin: 8px 0;
+}
+.update__token h3 {
+  font-weight: 600;
+  font-size: 14px;
+}
+.showProdList__div {
+  padding: 20px;
+  width: 30%;
+}
+.order__prodmodal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.664);
+  width: 100%;
+  height: 100vh;
+  z-index: 100000;
+}
+.order__modal-content {
+  position: absolute;
+  width: 60%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 30px;
+  height: 80vh;
+  overflow: scroll;
+  z-index: 200000;
+}
+.close__modal {
+  text-align: right;
+}
+.close__icon {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+.orderboxMain12 {
+  border-bottom: 1px solid #eee;
+}
+.order__img-box img {
+  width: 140px;
+  margin-top: 20px;
+}
+.pending-header {
+  margin-top: 20px;
+  font-size: 16px;
+}
+.headerPend2 {
+  font-size: 14px;
+}
+.notePBox {
+  display: inline-block;
+  background-color: rgb(255, 239, 239);
+  padding: 20px 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  font-size: 13px !important;
+}
+.order__main-box {
+  display: flex;
+  align-items: center;
+}
+.order__prodinfo p,
+.main__div p {
+  font-size: 13px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+.main__div h5 {
+  margin-top: 12px;
+  color: var(--primary-color);
+}
+.seller__details p {
+  font-size: 13px;
+  font-weight: 500;
+  margin: 5px 0;
+}
+.note__text {
+  font-size: 13px;
+  color: red;
+  font-weight: 600;
+}
+.confirm__box {
+  margin: 10px 0;
+}
+.order__prodinfo p {
+  font-size: 13px;
+  margin-left: 20px;
+}
+.confirm__box button {
+  background-color: var(--primary-color);
+  padding: 8px 10px;
+  border: none;
+  color: #fff;
+  font-size: 10px;
+  margin: 10px 0;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.confirm__box button:hover {
+  background-color: var(--primary-hover);
+}
+.payment-btn {
+  display: flex;
+  align-items: center;
+}
+.acct__details-box h2 {
+  margin: 10px 0;
+  color: var(--primary-color);
+}
+.acct__details-box p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+.acct__details-box button {
+  padding: 7px;
+  font-size: 12px;
+  margin: 10px 0;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-size: 10px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 500;
+}
+.acct__details-box p {
+  font-weight: 600;
+  color: red;
+}
+.btn-pay {
+  background-color: var(--primary-color);
+  font-size: 12px !important;
+  padding: 12px 20px !important;
+  border-radius: 100px !important;
+}
+.btn-cancel-pay {
+  background-color: red;
+}
+.btn-pay:hover {
+  background-color: var(--primary-hover);
+}
+.btn-cancel-pay:hover {
+  background-color: rgba(255, 0, 0, 0.836);
+}
+.order__prodmodal h3 {
+  margin: 15px 0;
+}
+.issues__box {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.issues__details p {
+  font-size: 13px;
+  font-weight: 500;
+}
+.issues__box button {
+  padding: 5px;
+  margin-left: 8px;
+  font-size: 10px;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 100px;
+  color: #fff;
+  cursor: pointer;
+}
+.issues__box button:hover {
+  background-color: var(--primary-hover);
+}
+.box__issue p {
+  font-size: 14px;
+  margin: 8px 0;
+}
+.back__btn-box span {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+.nomore__issues span {
+  font-size: 14px;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.next__icon {
+  margin-left: 10px;
+}
+.icons__btn {
+  background-color: var(--primary-color);
+  font-size: 23px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: var(--white-color);
+}
+.icons__btn:hover {
+  background-color: var(--primary-hover);
+}
+.more__box {
+  text-align: center;
+}
+.btn-order-more {
+  padding: 5px 10px;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 100px;
+  font-size: 11px;
+  cursor: pointer;
+}
+.btn-order-more:hover {
+  background-color: var(--primary-hover);
+}
+
+.no__peding p {
+  color: red;
+  font-weight: 600;
+  font-size: 13px;
+  margin: 10px 0;
+}
+.loadmore__btns {
+  margin: 20px 0;
+}
+.share-info {
+  margin: 10px 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+.share-heading {
+  font-size: 22px;
+  color: var(--primary-color);
+}
+.link__cusbox {
+  display: flex;
+  align-items: center;
+}
+.copy__icon {
+  margin-right: 5px;
+}
+.link__cusbox a {
+  display: block;
+  font-weight: 600;
+  color: var(--dark-primary);
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 80%;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+.content__box {
+  display: flex;
+  align-items: center;
+}
+.copy_check {
+  color: green;
+}
+.content__box span {
+  margin-left: 5px;
+}
+.box-history {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.history-price span {
+  font-weight: 600;
+  font-size: 14px;
+}
+.box-history:hover {
+  background-color: #f8f8fa;
+  cursor: pointer;
+}
+.box1history {
+  display: flex;
+  align-items: center;
+}
+
+.history-img img {
+  display: inline-block;
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+.history-img span {
+  font-weight: 600;
+  font-size: 13px;
+}
+.history-price p {
+  font-size: 12px;
+  text-align: right;
+  font-weight: 500;
+  color: #a5a2a2;
+}
+.sell-box {
+  background-color: var(--white-color);
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid var(--grey-light);
+}
+.sell-header {
+  text-align: center;
+}
+.sell-header h1 {
+  font-weight: 600;
+  font-size: 23px;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+.sell-box1 {
+  padding: 15px;
+}
+.sell-box-btn button,
+.sell-validate-btn,
+.sell-decline-btn {
+  padding: 9px 15px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.sell-box-btn button:hover {
+  background-color: var(--dark-primary);
+  color: var(--white-color);
+}
+.sell-mainbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--grey-light);
+  padding: 10px 0;
+}
+.sell-mainbox span {
+  font-weight: 500;
+}
+.sell-imgBox img {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  margin: 0 15px;
+  cursor: pointer;
+}
+.sell-validate-btn {
+  background-color: var(--dark-primary);
+  color: var(--white-color);
+}
+.sell-decline-btn {
+  background-color: rgb(212, 6, 6);
+  color: var(--white-color);
+  margin-left: 10px;
+}
+.contain-sellinfo {
+  border-bottom: 1px solid var(--grey-light);
+}
+.contain-sellinfo img {
+  display: inline-block;
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+}
+.main-errbox {
+  text-align: center;
+}
+.main-errbox h4 {
+  font-weight: 600;
+  color: var(--main-grey);
+}
+.prod-actbox {
+  width: 100%;
+}
+.error-prod-box {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  margin: 40px 0;
+}
+.error-prod-box span {
+  display: block;
+  font-weight: 600;
+  color: var(--main-grey);
+  font-size: 17px;
+}
+.error-prod-box button {
+  background-color: var(--primary-color);
+  padding: 10px 30px;
+  margin: 10px 0;
+  border: none;
+  color: var(--white-color);
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+.addTotalProdBtn {
+  background-color: var(--primary-color);
+  padding: 10px 30px;
+  margin: 10px 0;
+  border: none;
+  color: var(--white-color);
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  margin-right: 10px !important;
+}
+.addTotalProdBtn:hover {
+  background-color: var(--primary-hover);
+}
+.addTotalProd2Btn {
+  background-color: var(--white-color) !important;
+  padding: 10px 30px;
+  margin: 10px 0;
+  border: none;
+  color: var(--primary-color) !important;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  border: 1px solid var(--primary-color) !important;
+}
+.btn-receip {
+  background-color: #fff !important;
+  border: 1px solid var(--primary-color) !important;
+  color: var(--primary-color) !important;
+  font-weight: 600;
+}
+.prod-box1Box {
+  text-align: center;
+}
+.recordText2 {
+  display: inline-block;
+  font-size: 15px;
+  margin: 10px 0;
+}
+.orderBox2 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e7e3e3;
+}
+.trackBox {
+  margin-bottom: 20px;
+}
+.trackBox h4 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.bxtrack {
+  display: flex;
+  align-items: center;
+}
+.bxtrack1 {
+  background-color: #eee;
+  width: 15px;
+  height: 15px;
+  border-radius: 100px;
+}
+.trackDiv {
+  width: 200px;
+  height: 10px;
+  transform: translateX(-5px);
+  border-radius: 100px;
+  background-color: #eee;
+}
+.bxtracki {
+  display: flex;
+  align-items: center;
+}
+.activ {
+  background-color: rgb(47, 240, 47);
+  border: none;
+}
+.bxtrack span {
+  font-size: 12px;
+  font-weight: 600;
+  color: #ccc;
+}
+.bxtrack span.yes {
+  color: #000;
+}
+.orderIDBox {
+  margin: 10px 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+.orderIDBox h4 {
+  font-weight: 500;
+  font-size: 14px;
+}
+.mainPendTextB {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1628px) {
+  .traderdashboard__sidebar {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 1147px) {
+  .traderdashboard__sidebar {
+    width: 20%;
+    position: absolute;
+    display: none;
+    z-index: 10;
+  }
+
+  .toggle_icon {
+    display: block;
+  }
+}
+@media screen and (max-width: 1093px) {
+  .order__modal-content {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 989px) {
+  .traderdashboard__sidebar {
+    width: 30%;
+    z-index: 3000;
+  }
+  .search-box {
+    display: none;
+  }
+  .dashboard__input {
+    display: none;
+  }
+  .create__shop {
+    display: none;
+  }
+  .purchase-content {
+    width: 95% !important;
+    top: 40% !important;
+  }
+
+  .traderdashboard__main {
+    overflow-x: hidden;
+  }
+  .dashboard__header-box {
+    justify-content: space-between;
+  }
+
+  .shop__items-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+  }
+  .shop__activity,
+  .shop2_activity {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .showProdList__div {
+    width: 100%;
+  }
+  .sell-mainbox {
+    flex-direction: column;
+    align-items: unset;
+    justify-content: unset;
+  }
+  .sell-mainbox span {
+    display: inline-block;
+    margin: 10px 0;
+  }
+  .sell-imgBox img {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 666px) {
+  .order__modal-content {
+    width: 95%;
+    padding: 10px 15px;
+  }
+  .order__prodmodal {
+    overflow: scroll;
+  }
+  .trackDiv {
+    width: 100%;
+  }
+  .bxtrack span {
+    font-size: 10px;
+  }
+  .trackBox {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .traderdashboard__sidebar {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .shop__activity,
+  .shop2_activity {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .traderdashboard__main {
+    display: flex;
+    height: auto;
+  }
+}
+@media screen and (max-width: 645px) {
+  .close-profile-btn button {
+    margin-bottom: 200px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .traderdashboard__sidebar {
+    width: 40%;
+    z-index: 3000;
+  }
+  .toggle_icon {
+    display: block;
+  }
+
+  .traderdashboard__sidebar {
+    display: none;
+  }
+
+  .traderdashboard__sidebar {
+    position: absolute;
+  }
+
+  .close-back button {
+    background-color: var(--primary-color);
+    width: 80%;
+    padding: 7px 20px;
+    border-radius: 5px;
+    color: var(--white-color);
+    border: none;
+    font-size: 11px;
+  }
+  .shopErrormain {
+    width: 100%;
+    height: 100vh;
+    margin-left: 50px;
+  }
+  .prod-box1Box h2 {
+    font-size: 20px;
+  }
+  .header__box button {
+    display: none;
+  }
+  .add_prodShop {
+    display: none;
+  }
+  .recordText2 {
+    font-size: 14px;
+  }
+  .notePBox {
+    font-size: 12px !important;
+    padding: 11px 10px;
+  }
+  .pend1h2Text {
+    text-align: center;
+  }
+  .order__img-box {
+    text-align: center;
+  }
+  .btn-pay {
+    width: 100%;
+  }
+
+  .bxtrack {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 528px) {
+  .mobile-nav {
+    display: block;
+  }
+  .shop__activity,
+  .shop2_activity {
+    margin: 30px 0;
+  }
+  .completed-orders,
+  .transactions-box {
+    height: 230px;
+    overflow: scroll;
+  }
+  .link__cusbox a {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 509px) {
+  .order__main-box {
+    display: block;
+  }
+  .order__prodinfo p {
+    font-size: 13px;
+    margin-left: 0;
+  }
+  .pending-header {
+    margin: 0 0;
+    margin-top: 20px;
+  }
+  .headerPend2 {
+    font-size: 14px !important;
+  }
+}
+
+@media screen and (max-width: 502px) {
+  .logout__btn {
+    display: none;
+    font-size: 12px;
+  }
+  .search-box {
+    display: none;
+  }
+  .dashboard__header-box {
+    justify-content: space-between;
+  }
+  .traderdashboard__header .logo-box svg {
+    width: 120px;
+  }
+  .traderdashboard__sidebar {
+    position: absolute;
+  }
+  .traderdashboard__sidebar {
+    display: none;
+    width: 60%;
+    z-index: 3000;
+  }
+  .pending__buyer {
+    width: 80%;
+  }
+  .traderdashboard__main {
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .pending__buyer {
+    width: 65%;
+  }
+}

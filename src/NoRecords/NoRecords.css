@@ -1,0 +1,37 @@
+.no__records {
+  display: inline-block;
+  margin: 10px 0;
+}
+.icon-record {
+  display: inline-block;
+  font-size: 20px;
+  color: #40196d;
+  background-color: #dfe3ff;
+  padding: 8px 13px;
+  border-radius: 10px;
+}
+.no_recordtext {
+  font-weight: 500;
+  font-size: 13px;
+  margin-left: 5px;
+}
+.p-box-icon {
+  font-size: 25px;
+  color: var(--dark-primary);
+  background-color: #dfe3ff;
+  padding: 5px 0;
+  border-radius: 10px;
+  margin-right: 6px;
+  transform: translateY(2px);
+}
+.dateStyle {
+  font-weight: 600;
+  color: var(--main-grey);
+}
+.record2Box {
+  text-align: center;
+  margin-top: 20px;
+}
+.closebtn2 {
+  text-align: center;
+}

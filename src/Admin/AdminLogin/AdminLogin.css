@@ -1,0 +1,30 @@
+.mainbox-login-container {
+  width: 35%;
+  margin: 40px auto;
+}
+.mainbox-login {
+  background-color: var(--white-color);
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  padding: 30px;
+  border-radius: 5px;
+}
+.mainbox-login h2 {
+  text-align: center;
+}
+.main-login-logo {
+  text-align: center;
+}
+
+@media screen and (max-width: 898px) {
+  .mainbox-login-container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 453px) {
+  .mainbox-login-container {
+    width: 95%;
+    margin: 90px auto;
+  }
+}

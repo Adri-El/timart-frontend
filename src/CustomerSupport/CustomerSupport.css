@@ -1,0 +1,33 @@
+.support__box {
+  background-color: #fff;
+  padding: 40px;
+}
+.text-area-box label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+}
+.text-area-box textarea {
+  width: 100%;
+  border: 1px solid var(--box-color);
+  padding: 10px;
+  font-family: inherit;
+  border-radius: 5px;
+}
+.text-area-box textarea:focus {
+  outline: 1px solid var(--primary-color);
+}
+.support__box-2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 899px) {
+  .support__box-2 {
+    align-items: center;
+  }
+  .support__img svg {
+    display: none;
+  }
+}

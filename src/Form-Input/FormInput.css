@@ -1,0 +1,116 @@
+.form__input label,
+.phone-input label,
+.tex-area-box label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 3px 0;
+}
+.form__input input,
+.form__input button,
+.form__input select,
+.tex-area-box textarea {
+  width: 100%;
+  height: 40px;
+  padding: 0 10px;
+  border: none;
+  border: 1px solid var(--box-color);
+  margin-bottom: 10px;
+  border-radius: 5px;
+  transition: all 0.4s ease-in-out;
+  font-weight: 500;
+  font-family: inherit;
+}
+.form__input select * {
+  font-weight: 500;
+}
+.form__input button {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  margin-top: 13px;
+  height: 50px;
+  padding: 0;
+  font-weight: 500;
+}
+.form__input button:hover {
+  background-color: var(--primary-hover);
+  cursor: pointer;
+}
+.form__input input:focus,
+.form__input select:focus,
+.tex-area-box textarea:focus {
+  border: 1px solid var(--primary-color);
+  outline: 1px solid var(--primary-color);
+}
+.form__inp input {
+  width: 100%;
+}
+.form__input button:disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+.form__inp label {
+  display: inline-block;
+}
+.firstname,
+.lastname {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.show-pass {
+  position: absolute;
+  font-weight: 600;
+  font-size: 11px;
+  cursor: pointer;
+  transform: translate(-60px, 12px);
+}
+.phone-input {
+  margin: 10px 0;
+}
+.phoneInput-box {
+  display: flex;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+.phoneInput-box input {
+  width: 100%;
+  border: 1px solid #ccc;
+  height: 40px;
+  font-family: inherit;
+  border-radius: 5px;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.phoneInput-box input:focus {
+  border: 1px solid var(--primary-color);
+  outline: 1px solid var(--primary-color);
+}
+
+.phoneInput-box select {
+  width: 20%;
+  border: none;
+  padding: 5px;
+  height: 40px;
+  font-family: inherit;
+  appearance: none;
+  font-weight: 600;
+}
+.phoneInput-box select:focus {
+  border: none;
+  outline: none;
+}
+.tex-area-box textarea {
+  height: 120px;
+  padding: 10px;
+}
+@media screen and (max-width: 600px) {
+  .form__input label {
+    font-size: 12px;
+  }
+  .form__input button {
+    font-size: 12px;
+  }
+}

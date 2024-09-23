@@ -1,0 +1,97 @@
+.signup_form-header {
+  text-align: center;
+  margin: 10px 0;
+}
+.signup_form-header h1 {
+  font-size: 20px;
+}
+.signup_form-header p {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+.signup_form-header p a {
+  font-weight: 500;
+}
+.signup__form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+.signup-logo {
+  display: none;
+  text-align: center;
+  margin-top: 40px;
+}
+.checkBox-main input {
+  transform: translateY(2px);
+}
+.checkBox-main label {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(59, 58, 58);
+}
+.text__inp {
+  color: var(--primary-color);
+}
+.boxsign2 {
+  margin-top: 30px;
+}
+.box1con1 {
+  margin-top: 5px;
+}
+.mt-2 {
+  margin-top: 20px;
+}
+#form__box {
+  background-color: var(--white-color);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.logoBox {
+  text-align: center;
+}
+
+.form__inp {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1300px) {
+  .signup__form {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1174px) {
+  .signup__sidebar {
+    padding: 100px 50px;
+  }
+  .signup__form {
+    padding: 0 50px;
+  }
+}
+
+@media screen and (max-width: 981px) {
+  .signup__form {
+    width: 80%;
+    padding: 0 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .signup__sidebar {
+    height: 47vh;
+  }
+  .signup__form {
+    width: 95%;
+    padding: 0 0;
+  }
+  .signup_form-header h1 {
+    font-size: 16px;
+  }
+  .signup_form-header p {
+    font-size: 13px;
+  }
+}

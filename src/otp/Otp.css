@@ -1,0 +1,73 @@
+.otpmainbox {
+  width: 35%;
+  margin: 50px auto;
+}
+.otp-box {
+  background-color: var(--white-color);
+  border-radius: 5px;
+  border: 2px solid var(--grey-light);
+  padding: 50px 20px;
+}
+.textInfo {
+  text-align: center;
+}
+.otp-box p {
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+.otp-box-input input {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  font-family: inherit;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.otp-box-input input:focus {
+  outline: none;
+  border: 1px solid var(--primary-color);
+}
+.text-otp {
+  width: 100%;
+  text-align: right;
+}
+.text-otp span {
+  font-size: 13px;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+.resend-btn {
+  cursor: pointer;
+}
+.otp-box-input button {
+  width: 100%;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  cursor: pointer;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .otpmainbox {
+    width: 95%;
+    margin: 100px auto;
+  }
+  .otp-box {
+    padding: 50px 20px;
+    margin: 0 0;
+  }
+  .otp-box-input input {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .otp-box h2 {
+    margin: 10px 0;
+  }
+  .otp-box-input button {
+    margin: 20px 0;
+  }
+}

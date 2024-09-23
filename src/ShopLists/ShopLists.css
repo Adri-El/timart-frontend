@@ -1,0 +1,121 @@
+.shop__main-data-box {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.shop__stores {
+  background-color: var(--white-color);
+  border: 2px solid var(--grey-light);
+  margin: 10px 0;
+}
+.shop__stores-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  padding: 10px;
+}
+.shop__store-icon span {
+  font-size: 13px;
+  display: inline-block;
+  color: #40196d;
+  background-color: #dfe3ff;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+.shop__store-name {
+  display: flex;
+  align-items: center;
+}
+.shop__store-name span {
+  display: inline-block;
+  font-weight: 600;
+  color: #40196d;
+  font-size: 13px;
+}
+.shop__store-name {
+  margin: 0 10px;
+}
+.shop__store-name button {
+  border: none;
+  padding: 7px 10px;
+  font-size: 13px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.shop-del-btn {
+  background-color: var(--red-color);
+  color: var(--white-color);
+  margin-right: 10px;
+}
+.update-shop {
+  background-color: var(--success-color);
+  color: var(--white-color);
+}
+.shop__icons {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border-radius: 100px;
+}
+.icon_color-1 {
+  color: rgb(245, 54, 54);
+  font-size: 25px;
+  background-color: rgb(255, 182, 182);
+  padding: 3px;
+}
+.icon_color-2 {
+  margin: 0 13px;
+  color: #40196d;
+  font-size: 30px;
+  background-color: #dfe3ff;
+  padding: 3px 7px;
+}
+.icon_color-3 {
+  color: #40196d;
+  font-size: 31px;
+  background-color: #dfe3ff;
+  padding: 3px 7px;
+  border-radius: 100px;
+}
+.icon_color-4 {
+  font-size: 30px;
+  color: #40196d;
+  margin: 0 13px;
+  background-color: #dfe3ff;
+  padding: 3px 7px;
+}
+.shop__icons:hover {
+  transform: scale(1.2);
+}
+.addProdBtn21 button {
+  display: inline-block;
+  margin-bottom: 20px;
+  background-color: var(--white-color);
+  border: 1px solid var(--primary-color);
+  padding: 8px 13px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 12px;
+  color: var(--primary-color);
+}
+@media screen and (max-width: 600px) {
+  .shop__main-data-box {
+    width: 100%;
+  }
+  .shop__main-data-box {
+    height: 100vh;
+  }
+  .shop__store-icon span,
+  .shop__store-name span {
+    font-size: 12px;
+  }
+  .shop__store-name button {
+    padding: 6px 8px;
+    font-size: 10px;
+  }
+  .shop__stores-box {
+    margin: 5px 0;
+  }
+}

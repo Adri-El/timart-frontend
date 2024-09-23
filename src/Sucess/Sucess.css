@@ -1,0 +1,26 @@
+.success{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    color: var(--success-color);
+    font-weight: 600;
+    font-size: 13px ;
+    border-radius: 5px;
+    margin: 8px auto;
+    transition: all .4s ease-in-out;
+}
+
+.success span{
+    margin-left: 6px;
+}
+
+@media screen and (max-width: 600px ){
+    .success{
+        width: 80%;
+        transform: translateX(0px);
+        margin: 7px auto;
+        padding: 7px;
+
+    }
+}

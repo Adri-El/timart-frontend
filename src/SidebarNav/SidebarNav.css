@@ -1,0 +1,127 @@
+.dashboard-sidebar{
+     position: absolute;
+     top: 70px; 
+     left: 0;
+     width: 20%;
+     background-color: var(--primary-color);
+     padding: 50px 20px;
+     color: var(--white-color);
+     line-height: 50px;
+}
+.dashboard-sidebar span{
+     font-weight: 600;
+     color: var(--white-color);
+}
+.side-bar-nav{
+     display: block;
+     margin-top: 10px;
+     padding: 10px 0;
+     margin-bottom: 18px;
+}
+.nav__links-box{
+     display: flex;
+     align-items: center;
+}
+.nav-link span{
+     margin-left: 10px;
+     font-size: 14px;
+     font-weight: 500;
+     cursor: pointer;
+     line-height: 30px;
+}
+.nav-icon{
+     display: flex;
+}
+.dashboard-info-box{
+     display: flex;
+     justify-content: center;
+     width: 100%;
+     background-color: var(--white-color);
+     border: 1px solid var(--grey-light);
+     padding: 10px;
+     margin-bottom: 40px;
+}
+.transactions{
+     padding: 10px ;
+     margin-left: 20px;
+}
+.transactions h3{
+     font-size: 15px;
+     padding: 5px 0;
+     margin: 10px 0;
+}
+.active{
+     border-bottom: 2px solid var(--primary-color);
+}
+.dash-card-info{
+     border: 2px solid var(--grey-light);
+     padding: 4px;
+     border-radius: 5px;
+     display: flex;
+     align-items: center;
+     margin: 5px 0;
+}
+.item-info p, .pending, .completed{
+     font-size: 11px;
+}
+.ProductName{
+     font-weight: 400;
+}
+.p-price {
+     font-weight: 600;
+}
+.pending{
+     color: var(--red-color);
+     font-weight: 600;
+}
+.completed {
+     color: rgb(21, 173, 21);
+     font-weight: 600;
+     
+
+}
+.item-info{
+     padding: 0 10px;
+}
+
+@media screen and (max-width: 900px){
+     .nav-link span{
+          display: inline-block;
+          margin-left: 5px;
+          font-size: 11px;
+          transform: translateY(1px);
+     }
+     .nav-icon{
+          width: 11px;
+          height: 11px;
+
+     }
+
+     .side-bar-nav{
+          display: block;
+          margin-top: 10px;
+          padding: 10px 0;
+     }
+
+     .nav-link span{
+     margin-left: 5px;
+    
+}
+}
+
+@media screen and (max-width: 502px){
+     .nav-link span{
+          display: inline-block;
+          margin-left: 5px;
+          font-size: 13px;
+          transform: translateY(1px);
+     }
+     .nav-icon{
+          width: 13px;
+          height: 13px;
+     }
+     .side-bar-nav{
+          margin-bottom: 15px;
+     }
+   
+}

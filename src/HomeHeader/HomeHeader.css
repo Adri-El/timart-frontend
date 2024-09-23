@@ -1,0 +1,346 @@
+.home__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  background-color: var(--white-color);
+  border: 2px solid var(--grey-light);
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.search-btn {
+  height: 35px;
+}
+.trader__searchbar {
+  width: 40%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100000;
+  background-color: var(--white-color);
+  border: 2px solid var(--grey-light);
+}
+
+.trader__searchbar p {
+  text-align: center;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+.search-box span {
+  display: inline-block;
+  font-size: 25px;
+  color: var(--primary-color);
+  transform: translate(10px, 5px);
+}
+.cart-icon {
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+.form__input select {
+  height: 35px !important;
+}
+.inp2 {
+  transform: translateY(5px);
+}
+.cart-items {
+  position: absolute;
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: var(--white-color) !important;
+  padding: 2px 5px;
+  border-radius: 50px;
+  font-size: 10px !important;
+  font-weight: 600 !important;
+}
+.header__box button {
+  height: 35px;
+}
+.account-login {
+  position: absolute;
+  top: 23%;
+  left: 70%;
+  z-index: 5000;
+  width: 25%;
+  box-shadow: 0 10px 40px rgb(0 0 0 / 20%);
+}
+.header-account-box {
+  background-color: var(--white-color);
+  padding: 20px;
+  border-radius: 5px;
+}
+.acct-login-btn-box {
+  display: flex;
+  align-items: center;
+  margin: 12px 0;
+}
+.box-icon {
+  background-color: var(--light-primary);
+  padding: 3px 7px;
+  border-radius: 5px;
+  color: var(--dark-primary);
+  margin-right: 12px;
+  font-size: 13px;
+}
+.text-center {
+  margin: 10px 0;
+}
+.search-box {
+  width: 90%;
+}
+.search-box input {
+  width: 40%;
+}
+.search-mobile {
+  display: flex;
+  width: 100%;
+  margin: 5px auto;
+  display: none;
+  position: relative;
+  padding: 0 5px;
+}
+.mob-select {
+  display: flex;
+}
+.search-mobile input,
+.mob-select select {
+  width: 100%;
+  height: 40px;
+  font-family: inherit;
+  border-radius: 10px;
+  border: none;
+  border: 2px solid var(--grey-light);
+  padding: 10px 5px;
+  background-color: #fff;
+}
+.search-mobile input {
+  padding: 10px !important;
+}
+.search-mobile input:focus,
+.mob-select select:focus {
+  outline: 1px solid var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+.acct-box-link {
+  color: var(--dark-primary);
+  font-size: 14px;
+  font-weight: 500;
+}
+.add-acct {
+  cursor: pointer;
+}
+.acct-login-btn-box button {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+.acct-login-btn-box button:hover {
+  background-color: var(--primary-hover);
+}
+.acct-log-btn {
+  background-color: var(--primary-hover) !important;
+}
+.acct-signup-btn {
+  background-color: var(--primary-hover) !important;
+}
+.acct-log-btn:hover {
+  background-color: var(--primary-color) !important;
+}
+.acct-signup-btn:hover {
+  background-color: var(--primary-color) !important;
+}
+.close-acct-box {
+  text-align: right;
+  cursor: pointer;
+}
+.close-acct-box span {
+  color: var(--primary-color);
+}
+.auth-btns {
+  display: flex;
+  align-items: center;
+}
+.btn-auth {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: var(--white-color);
+  font-weight: 600;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 13px;
+  border-radius: 100px;
+}
+.logout-btn {
+  background-color: var(--primary-color);
+}
+.logout-btn:hover {
+  background-color: var(--primary-hover);
+}
+.login-btn {
+  background-color: #fff;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.cart__items {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.438);
+  z-index: 5000;
+}
+.cart__details {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 100vh;
+  background-color: var(--white-color);
+  padding: 20px;
+}
+.cart__data {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+  border: 2px solid var(--grey-light);
+  padding: 20px;
+}
+.cart__data p {
+  font-weight: 500;
+  margin-left: 10px;
+}
+.cart__data img {
+  width: 50px;
+}
+.close__data {
+  text-align: right;
+  font-weight: 500;
+  cursor: pointer;
+}
+.cartbtn button {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  width: 100%;
+  height: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+.acct-login-btn-box {
+  cursor: pointer;
+}
+.cart-icon-empty {
+  color: var(--primary-color);
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 1052px) {
+  .account-login {
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    z-index: 5000;
+  }
+}
+
+@media screen and (max-width: 1047px) {
+  .account-login {
+    width: 35%;
+  }
+}
+@media screen and (max-width: 905px) {
+  .input-search {
+    display: none;
+  }
+  .search-btn {
+    display: none;
+  }
+  .inp2 {
+    display: none;
+  }
+  .search-mobile {
+    display: flex;
+  }
+  .search-mobile input {
+    display: inline-block !important;
+  }
+  .mob-select select {
+    display: inline-block !important;
+    height: 40px !important;
+  }
+}
+@media screen and (max-width: 743px) {
+  .account-login {
+    width: 50%;
+    top: 15%;
+    left: 40%;
+  }
+}
+@media screen and (max-width: 541px) {
+  .account-login {
+    width: 60%;
+    left: 30%;
+  }
+  .btn-auth {
+    padding: 5px 10px;
+  }
+  .cart-items {
+    position: unset;
+  }
+  .cart-icon {
+    position: fixed;
+    top: 80%;
+    left: 80%;
+    background-color: #fff;
+    width: max-content;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 2000;
+  }
+}
+@media screen and (max-width: 519px) {
+  .account-login {
+    position: absolute;
+    top: 13%;
+    z-index: 5000;
+  }
+  .acct-login-btn-box button {
+    font-size: 12px;
+  }
+  .search-mobile input {
+    border: none !important;
+  }
+}
+
+@media screen and (max-width: 502px) {
+  .logout__btn {
+    display: inline-block;
+    font-size: 10px !important;
+    padding: 5px 12px !important;
+  }
+  .mob-logout {
+    display: none !important;
+  }
+  .home__header {
+    padding: 10px 5px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .account-login {
+    width: 80%;
+    left: 11%;
+  }
+}
+

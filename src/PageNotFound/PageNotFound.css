@@ -1,0 +1,29 @@
+.not-found {
+  text-align: center;
+  margin: 80px;
+}
+.not-found svg {
+  width: 38%;
+}
+.not-found h1 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 881px) {
+  .not-found svg {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 388px) {
+  .not-found h1 {
+    font-size: 18px;
+  }
+  .not-found svg {
+    width: 90%;
+  }
+  .not-found {
+    margin: 100px 20px;
+  }
+}

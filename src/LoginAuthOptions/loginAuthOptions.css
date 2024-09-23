@@ -1,0 +1,106 @@
+.auth_mainbox {
+  width: 30%;
+  margin: 70px auto;
+}
+.auth_logobox {
+  text-align: center;
+}
+.auth__options {
+  background-color: var(--white-color);
+  padding: 40px 30px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  border-radius: 5px;
+}
+.main__options-box {
+  padding: 10px;
+  text-align: center;
+}
+.auth__options h2 {
+  font-size: 23px;
+  color: #720872;
+  margin-bottom: 10px;
+}
+.auth__options-mainbox {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.auth__options-box {
+  width: 100%;
+  padding: 20px 40px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  margin: 15px 0;
+}
+.auth__options-box:hover {
+  transform: scale(1.1);
+}
+.seller-box {
+  background-color: #81007f;
+  color: var(--white-color);
+  border-radius: 100px;
+}
+.buyer-box {
+  border: 1px solid var(--primary-color);
+  border-radius: 100px;
+  background-color: #fff;
+  color: var(--primary-color);
+  margin-right: 20px;
+}
+.no__account {
+  padding: 10px;
+  text-align: center;
+}
+.no__account span {
+  font-size: 13px;
+  font-weight: 500;
+}
+.account__link {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+@media screen and (max-width: 1053px) {
+  .auth_mainbox {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 636px) {
+  .auth__options-mainbox {
+    flex-direction: column;
+  }
+  .auth__options-box {
+    width: 100%;
+  }
+  .seller-box {
+    margin: 0;
+  }
+  .buyer-box {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  .auth__options h2 {
+    font-size: 20px;
+  }
+  .logo-box svg {
+    width: 130px;
+  }
+}
+
+@media screen and (max-width: 539px) {
+  .auth_mainbox {
+    margin: 100px auto;
+    padding: 20px;
+    width: 100%;
+  }
+  .auth__options {
+    padding: 20px 10px;
+  }
+  .seller-box {
+    margin: 15px 0;
+  }
+}

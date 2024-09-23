@@ -1,0 +1,10 @@
+.modal-close {
+  text-align: right;
+}
+.close {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+.bell-icon {
+  color: var(--primary-color);
+}

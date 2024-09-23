@@ -1,0 +1,29 @@
+.username-box {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 5px;
+  transition: background-color 0.4s ease-in;
+  border: 2px solid var(--grey-light);
+  background-color: var(--white-color);
+}
+.username-box span {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 13px;
+  margin-left: 5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.user-icon {
+  color: var(--primary-color);
+  font-size: 14px;
+}
+.user-sort {
+  transform: translateY(-3px);
+}
+.username-box:hover {
+  background-color: var(--secondary-color);
+}

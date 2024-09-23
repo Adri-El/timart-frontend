@@ -1,0 +1,13 @@
+.prod__img-main {
+  display: inline-block;
+  margin: 0 10px;
+}
+.prod-image-con {
+  border: 2px solid var(--grey-light);
+  padding: 8px;
+}
+.prod-image-con img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
